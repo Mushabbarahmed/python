@@ -1,0 +1,5 @@
+f=open("mus.py")
+f.seek(10)
+print(f.tell())
+print(f.readlines())
+f.close()

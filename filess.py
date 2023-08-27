@@ -1,0 +1,13 @@
+f=open("list.py",)
+con=f.read(3)
+print(con)
+con=f.read(3)
+print(con)
+f.close()
+f1=open("stringslicing.py")
+cont=f1.read()
+#print(cont)
+#print(f1.readlines())
+# for line in f1:
+#     print(line)
+# f1.close()
